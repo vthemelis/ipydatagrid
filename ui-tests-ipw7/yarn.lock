@@ -662,7 +662,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jupyterlab/galata@npm:^5.0.5":
+"@jupyterlab/galata@npm:^5.0.0":
   version: 5.0.5
   resolution: "@jupyterlab/galata@npm:5.0.5"
   dependencies:
@@ -1020,12 +1020,12 @@ __metadata:
   linkType: hard
 
 "@lezer/javascript@npm:^1.0.0":
-  version: 1.4.5
-  resolution: "@lezer/javascript@npm:1.4.5"
+  version: 1.4.7
+  resolution: "@lezer/javascript@npm:1.4.7"
   dependencies:
     "@lezer/highlight": ^1.1.3
     "@lezer/lr": ^1.3.0
-  checksum: 1402075c58f7344a3024f75253c8dabc7049d51b65480af194f081044be21434261c8a4db4ccf42629a2bfc838104838c8d87a58693134ee5660c122b63b4b72
+  checksum: 37c05793e0e45280fa5d7b845a3132a84596105d48b7d2c195abea0a198477ea6719b07d1c8967679e80fc466388151956901fd6962479c130ffda64a6d09591
   languageName: node
   linkType: hard
 
@@ -1279,7 +1279,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@playwright/test@npm:^1.32.2, @playwright/test@npm:^1.37.1":
+"@playwright/test@npm:^1.32.0, @playwright/test@npm:^1.32.2":
   version: 1.37.1
   resolution: "@playwright/test@npm:1.37.1"
   dependencies:
@@ -1759,9 +1759,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 20.5.1
-  resolution: "@types/node@npm:20.5.1"
-  checksum: 3dbe611cd67afa987102c8558ee70f848949c5dcfee5f60abc073e55c0d7b048e391bf06bb1e0dc052cb7210ca97136ac496cbaf6e89123c989de6bd125fde82
+  version: 20.5.3
+  resolution: "@types/node@npm:20.5.3"
+  checksum: fe67a0fd7402218bdf91523a2b1c2e41d619f7294b1a471e0a778b8bc7bb3fcf291aed12041bcbe9622d50a3d1295a9adea0e7e19bb9386a246bf66071404721
   languageName: node
   linkType: hard
 
@@ -1773,13 +1773,13 @@ __metadata:
   linkType: hard
 
 "@types/react@npm:^18.0.26":
-  version: 18.2.20
-  resolution: "@types/react@npm:18.2.20"
+  version: 18.2.21
+  resolution: "@types/react@npm:18.2.21"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 30f699c60e5e4bfef273ce64d320651cdd60f5c6a08361c6c7eca8cebcccda1ac953d2ee57c9f321b5ae87f8a62c72b6d35ca42df0e261d337849952daab2141
+  checksum: ffed203bfe7aad772b8286f7953305c9181ac3a8f27d3f5400fbbc2a8e27ca8e5bbff818ee014f39ca0d19d2b3bb154e5bdbec7e232c6f80b59069375aa78349
   languageName: node
   linkType: hard
 
@@ -2687,8 +2687,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ipydatagrid-ui-tests@workspace:."
   dependencies:
-    "@jupyterlab/galata": ^5.0.5
-    "@playwright/test": ^1.37.1
+    "@jupyterlab/galata": ^5.0.0
+    "@playwright/test": ^1.32.0
     klaw-sync: ^6.0.0
     rimraf: ^3.0.2
   languageName: unknown
@@ -3090,8 +3090,8 @@ __metadata:
   linkType: hard
 
 "node-fetch@npm:^2.6.7":
-  version: 2.6.13
-  resolution: "node-fetch@npm:2.6.13"
+  version: 2.7.0
+  resolution: "node-fetch@npm:2.7.0"
   dependencies:
     whatwg-url: ^5.0.0
   peerDependencies:
@@ -3099,7 +3099,7 @@ __metadata:
   peerDependenciesMeta:
     encoding:
       optional: true
-  checksum: 055845ae5b4796c78c7053564745345025cf959563b3568b43c385f67d311779e6b00e5fef6ed1b79f86ba4048e4b4b722e1aa948305521b9353eb7e788912c9
+  checksum: d76d2f5edb451a3f05b15115ec89fc6be39de37c6089f1b6368df03b91e1633fd379a7e01b7ab05089a25034b2023d959b47e59759cb38d88341b2459e89d6e5
   languageName: node
   linkType: hard
 
@@ -3623,18 +3623,18 @@ __metadata:
   linkType: hard
 
 "style-mod@npm:^4.0.0":
-  version: 4.0.3
-  resolution: "style-mod@npm:4.0.3"
-  checksum: 934556e720bd29026ff8fef43a1a35b58957813025b91f996d886e9405acf934ddb1934def4400b174bd7784c9263eb9c71f07ae83925af9271b7d921d546854
+  version: 4.1.0
+  resolution: "style-mod@npm:4.1.0"
+  checksum: 8402b14ca11113a3640d46b3cf7ba49f05452df7846bc5185a3535d9b6a64a3019e7fb636b59ccbb7816aeb0725b24723e77a85b05612a9360e419958e13b4e6
   languageName: node
   linkType: hard
 
 "systeminformation@npm:^5.8.6":
-  version: 5.18.15
-  resolution: "systeminformation@npm:5.18.15"
+  version: 5.19.1
+  resolution: "systeminformation@npm:5.19.1"
   bin:
     systeminformation: lib/cli.js
-  checksum: 15555c2c0fac29ca8146153c5b9ad146f5fe5ffe109f0cbc20d2d2b902f8b4d2cc57a1add233edc4914c13f984b96250a51ce351bd570a1ac6ba369ed3caa974
+  checksum: 0e02fbc1082f29732c69ba464069df6d1efb53385d394ba40d55292ab2cf88b2240095908774535adc9244f369a0f52c7aadb7114dd6895243538b263840c27c
   conditions: (os=darwin | os=linux | os=win32 | os=freebsd | os=openbsd | os=netbsd | os=sunos | os=android)
   languageName: node
   linkType: hard
